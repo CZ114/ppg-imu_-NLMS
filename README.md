@@ -23,9 +23,11 @@ ppg_hr_validation/
 
 ## 相关资源
 
-- **数据集**：`D:/Imperial/individual/learn/PPG_FieldStudy/`（15 受试者，~2.5h 各）
-- **ESP32 项目**：`D:/Imperial/individual/audioAndsensor/integrated_esp32/`
-- **算法参考综述**：`C:/Users/陈哲/Desktop/ppg_imu_algorithms.html`
+- **数据集**：PPG-DaLiA / PPG_FieldStudy（公开数据集，15 受试者，~2.5h/人）；获取方式见 `dataset_notes.md`
+- **ESP32 项目**：本仓库算法将移植到独立的 ESP32-S3 固件工程
+- **算法参考综述**：本地综述文档（PPG/IMU 去伪影方法对比）
+
+> 本机绝对路径（数据集、固件工程、综述文件）记录在 `validation_plan.md` §〇，**不入版本控制**。
 
 ## 当前阶段
 

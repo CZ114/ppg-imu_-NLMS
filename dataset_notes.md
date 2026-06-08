@@ -1,7 +1,7 @@
 # PPG-DaLiA 数据集字段速查
 
-> 路径：`D:/Imperial/individual/learn/PPG_FieldStudy/`
 > 论文：Reiss et al., *Deep PPG*, MDPI Sensors 19(14), 2019.
+> 数据集获取：见论文/MDPI 补充材料；本机路径见 `validation_plan.md` §〇（不入库）。
 
 ## 文件组成（每个被试 S1–S15）
 
