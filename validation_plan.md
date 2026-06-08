@@ -4,6 +4,20 @@
 
 ---
 
+## 〇、本地路径（不入库）
+
+以下资源**只存在于本地工作站**，已在 `.gitignore` 中排除，不上传 GitHub：
+
+| 用途 | 本机绝对路径 |
+|---|---|
+| PPG-DaLiA 数据集（15 受试者，~2.5h/人） | `D:/Imperial/individual/learn/PPG_FieldStudy/` |
+| ESP32-S3 固件工程（移植目标） | `D:/Imperial/individual/audioAndsensor/integrated_esp32/` |
+| 算法综述（PPG/IMU 去伪影方法对比） | `C:/Users/陈哲/Desktop/ppg_imu_algorithms.html` |
+
+> 在其他机器上复现时需自行准备这三项资源并在脚本里更新路径。数据集获取见 `dataset_notes.md`。
+
+---
+
 ## 一、研究问题
 
 回答以下三个问题：
@@ -180,7 +194,7 @@
 
 ## 九、参考文献
 
-详见 `C:/Users/陈哲/Desktop/ppg_imu_algorithms.html`，核心三篇：
+详见本地综述 `ppg_imu_algorithms.html`（路径见第 〇 节），核心三篇：
 
 - Reiss et al. (2019) *Deep PPG / PPG-DaLiA*. Sensors 19(14).
 - Temko (2017) *WFPV*. IEEE TBME 64(9).

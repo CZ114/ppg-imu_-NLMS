@@ -1,6 +1,9 @@
 # Dataset (not redistributed)
 PPG_FieldStudy/
 
+# Local-only reference materials (paths recorded in validation_plan.md)
+ppg_imu_algorithms.html
+
 # Python
 __pycache__/
 *.py[cod]
